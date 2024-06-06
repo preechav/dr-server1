@@ -1,0 +1,36 @@
+# GET http://localhost:3000/  
+
+
+#  GET http://localhost:3000/api/sel 
+
+ GET http://localhost:3000/api/selById/2 
+
+  # GET http://localhost:3000/api/ss2 
+
+
+# POST http://localhost:3000/api/ins
+# Content-Type:application/json
+
+# {
+#   "class_name" : "cn",
+#   "class_detail": "cd",
+#   "class_treatment" :"tr"
+# }
+
+
+# POST http://localhost:3000/api/upd 
+# Content-Type:application/json
+
+# {
+#   "class_id" : 3,
+#   "class_name" : "cn3",
+#   "class_detail": "cd3",
+#   "class_treatment" :"tr3"
+# }
+
+# POST http://localhost:3000/api/del
+# Content-Type:application/json
+
+# {
+#   "class_id" : 3
+# }
